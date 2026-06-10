@@ -200,7 +200,231 @@ footer.footer .copyright p {
 .NextExhibitions h1, .previousExhibitions h1 {
     color: #fff;
     text-align: center;
-    margin-bottom: 30px;
+    
 }
 
+.title-line {
+    width: 30%;
+    margin: 0 auto 30px;
+    color: #fff;
+}
+
+
+/* ========================================
+   TABLET (768px and below)
+======================================== */
+@media (max-width: 768px) {
+
+  /* Navbar */
+  nav.navbar .navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+  }
+
+  nav.navbar .navbar-toggler i {
+    color: #fff;
+  }
+
+  nav.navbar .navbar-collapse {
+    background-color: #000;
+    padding: 10px 0;
+  }
+
+  nav.navbar .navbar-nav li a.nav-link {
+    padding: 10px 16px;
+    line-height: 30px;
+    font-size: 15px;
+  }
+
+  /* Index - head gallery */
+  .head-gallery {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    gap: 10px;
+  }
+
+  .imgText {
+    margin: 20px 10px;
+    width: 90%;
+  }
+
+  .imgText img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* About page */
+  .row.g-0.text-center {
+    width: 90% !important;
+    margin-top: 80px !important;
+  }
+
+  .row.g-0.text-center .col-6,
+  .row.g-0.text-center .col-md-4,
+  .row.g-0.text-center .col-sm-6,
+  .row.g-0.text-center .col-md-8 {
+    width: 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .row.g-0.text-center img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /* Grants & Exhibitions sections (about page) */
+  .GrantsAwards,
+  .Exhibitions {
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  .GrantsAwards h1,
+  .Exhibitions h1 {
+    font-size: 22px;
+  }
+
+  .GrantsAwards li,
+  .Exhibitions li {
+    font-size: 14px;
+    line-height: 1.8;
+  }
+
+  /* Exhibitions page carousels */
+  .NextExhibitions,
+  .previousExhibitions {
+    width: 90%;
+    margin: 60px auto;
+  }
+
+  .NextExhibitions img,
+  .previousExhibitions img {
+    width: 100%;
+    height: auto;
+  }
+
+  .NextExhibitions h1,
+  .previousExhibitions h1 {
+    font-size: 22px;
+  }
+
+  .title-line {
+    width: 60%;
+  }
+
+  /* Projects page swiper images */
+  swiper-slide img {
+    width: 100% !important;
+    height: auto !important;
+    max-height: 280px;
+    object-fit: cover;
+  }
+
+  /* Footer */
+  footer.footer .top-footer {
+    padding: 50px 0;
+  }
+
+  footer.footer .top-footer .col-md-6 {
+    margin-bottom: 40px;
+  }
+}
+
+
+/* ========================================
+   MOBILE (480px and below)
+======================================== */
+@media (max-width: 480px) {
+
+  /* Navbar */
+  nav.navbar .navbar-nav li a.nav-link {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  /* Index - head gallery */
+  .head-gallery {
+    margin-top: 70px;
+  }
+
+  .imgText {
+    margin: 10px 5px;
+    width: 95%;
+  }
+
+  /* About page header */
+  .row.g-0.text-center {
+    width: 95% !important;
+    margin-top: 70px !important;
+  }
+
+  /* Grants & Exhibitions sections */
+  .GrantsAwards,
+  .Exhibitions {
+    width: 95%;
+    margin: 20px auto;
+  }
+
+  .GrantsAwards h1,
+  .Exhibitions h1 {
+    font-size: 18px;
+  }
+
+  .GrantsAwards li,
+  .Exhibitions li {
+    font-size: 13px;
+  }
+
+  /* Exhibitions page carousels */
+  .NextExhibitions,
+  .previousExhibitions {
+    width: 95%;
+    margin: 60px auto;
+  }
+
+  .NextExhibitions h1,
+  .previousExhibitions h1 {
+    font-size: 18px;
+  }
+
+  .title-line {
+    width: 80%;
+  }
+
+  /* Projects page swiper images */
+  swiper-slide img {
+    max-height: 220px !important;
+  }
+
+  swiper-slide .title {
+    font-size: 24px !important;
+  }
+
+  swiper-slide .subtitle {
+    font-size: 15px !important;
+  }
+
+  /* Footer */
+  footer.footer .top-footer {
+    padding: 40px 0;
+  }
+
+  footer.footer .top-footer h5 {
+    font-size: 16px;
+  }
+
+  footer.footer .top-footer .about-us p,
+  footer.footer .top-footer .contact-us ul.contact-list li {
+    font-size: 13px;
+  }
+
+  footer.footer .copyright p {
+    font-size: 13px;
+  }
+}
 
