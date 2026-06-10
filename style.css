@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+     font-family: "Playfair Display", serif;
+    background-color: #000;
+}
+
+
+nav.navbar .navbar-nav li a.nav-link {
+    color: #FFFFFF;
+    font-size: 16px;
+    line-height: 40px;
+    padding-right: 24px;
+    padding-left: 24px;
+    transition: all 0.5s ease;
+}
+
+nav.navbar .navbar-nav li a.nav-link:hover,
+nav.navbar .navbar-nav li a.nav-link.active {
+    background-color: #FFFFFF;
+    color: #000;
+}
+
+nav.navbar {
+    background-color:#000;
+}
+
+nav.navbar.noTransparent {
+    background-color: #000;
+    border-bottom: 1px solid #fff;
+}
+
+nav.navbar.noTransparent .navbar-nav li a.nav-link {
+    color: #fff;
+}
+
+nav.navbar.noTransparent .navbar-nav li a.nav-link:hover
+{
+    color: #000;
+    background-color: #fff;
+}
+
+
+
+.head-gallery {
+     display: flex;
+    justify-content: center; 
+    gap: 20px;               
+    flex-wrap: wrap;
+    margin-top: 100px; 
+}
+
+.imgText {
+    text-align: center;
+    color: #fff;
+    margin: 50px;
+}
+
+
+.imgText {
+    position: relative;
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.imgText::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to top, #000 0%, #000 40%, transparent 100%);
+    animation: reveal 2s ease forwards;
+}
+
+@keyframes reveal {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(-100%);
+    }
+}
+
+
+ footer.footer .top-footer {
+    background-color: #171717;
+    padding: 75px 0;
+}
+
+footer.footer .top-footer h5 {
+    font-size: 18px;
+    line-height: 45px;
+    color: #fff;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+footer.footer .top-footer h5::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 35px;
+    height: 3px;
+    background-color: #5c5c5c;
+
+}
+
+footer.footer .top-footer .about-us p {
+    font-size: 15px;
+    line-height: 22px;
+    color: #919191;
+    margin-bottom: 60px;
+}
+
+footer.footer .top-footer .about-us ul a {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    background-color: #333333;
+    color: #acacac;
+    border-radius: 2px;
+    display: block;
+    text-align: center;
+    transition: all 0.5s ease;
+}
+
+footer.footer .top-footer .about-us ul a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+footer.footer .top-footer .contact-us ul.contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+footer.footer .top-footer .contact-us ul.contact-list li {
+    font-size: 18px;
+    color: #676767;
+    margin-bottom: 35px;
+}
+
+footer.footer .top-footer .contact-us ul.contact-list li i {
+    height: 35px;
+    width: 35px;
+    line-height: 35px;
+    background-color: #282828;
+    color: #acacac;
+    border-radius: 2px;
+    text-align: center;
+    margin-left: 15px;
+}
+
+footer.footer .copyright {
+    background-color: #111111;
+    padding: 30px 0;
+}
+
+footer.footer .copyright p {
+    font-size: 15px;
+    color: #acacac;
+    text-align: center;
+}
+
+
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+
+.GrantsAwards, .Exhibitions {
+    width: 70%;
+    margin: 50px auto;
+}
+
+.GrantsAwards h1, li, .Exhibitions h1, li {
+    color: #fff;
+}
+
+
+.NextExhibitions, .previousExhibitions {
+    width: 60%;
+    margin: 100px auto;
+}
+
+.NextExhibitions img, .previousExhibitions img {
+    width: auto;
+    height: 500px;
+}
+
+.NextExhibitions h1, .previousExhibitions h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
