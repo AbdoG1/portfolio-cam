@@ -210,6 +210,7 @@ footer.footer .copyright p {
 }
 
 
+
 /* ========================================
    TABLET (768px and below)
 ======================================== */
@@ -394,6 +395,13 @@ footer.footer .copyright p {
 
   .title-line {
     width: 80%;
+  }
+
+  .NextExhibitions img,
+  .previousExhibitions img {
+    width: 95%;
+    height: 300px;
+    margin: 60px auto;
   }
 
   /* Projects page swiper images */
